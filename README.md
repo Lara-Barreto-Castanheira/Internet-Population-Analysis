@@ -29,7 +29,7 @@ The script will generate and display plots showing the internet population growt
 
 ## Functions
 
-1. generate_population_dictionary_from_datacsv(filename)
+### 1. generate_population_dictionary_from_datacsv(filename)
 
 - Reads data from a CSV file and creates a dictionary structured as:
 
@@ -41,7 +41,7 @@ The script will generate and display plots showing the internet population growt
 
 - Returns the dictionary
 
-2. generate_population_plots_from_population_dictionary(population_dictionary)
+### 2. generate_population_plots_from_population_dictionary(population_dictionary)
 
 - Uses the dictionary to generate line plots for each continent.
 
